@@ -5,7 +5,7 @@ A Python tool that enumerates subdomains,domains and checks if they return a 404
 ```
 git clone https://github.com/firaterror/makina404.git
 cd makina404
-pip3.10 install httpx httpx[http2] asyncio playwright aiohttp python-dotenv
+pip3.10 install httpx 'httpx[http2]' asyncio playwright aiohttp python-dotenv
 playwright install chromium
 ```
 **Input Domains (`domains.txt`):**
