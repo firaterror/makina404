@@ -37,3 +37,4 @@ playwright install chromium
 2.  Ensure the `DISCORD_SCANNER_WEBHOOK` environment variable is set (or the `.env` file exists).
 3.  Run it:
     ```python3.10 makina404.py```
+...
